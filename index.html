@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel = "stylesheet" href = "style.css" >
+   <title> Dance with me </title>
+</head>
+
+<body onload="changeDancer(1)">
+        <div>
+        <audio src = "sound/Takagi Kan - May The Force Be With You.mp3" id = "mayforce" loop  > </audio>
+        </div>
+
+        <div class = "container">
+        <div class = "dance">
+            <div> 
+                <img id = "dsl">
+            </div>
+            <div>
+                <img id = "d">
+            </div>
+            <div> 
+                <img id  = "dsr">
+            </div>
+        </div>
+  <br>
+  
+        <div class = "player1">
+            <button id = "prev" ></button> 
+            <button id = "next" ></button> 
+        </div>
+
+        <div class = "container2">
+             <div>  <button class = "changeBut" id = "prevSong"> <<< </button> </div>
+                <div id = "musicPlay">
+                    <img id ="playBut" src="img/yoda.png" alt="Yoda DJ" width="140"  />
+                </div>   
+               <div> <button class = "changeBut" id = "nextSong"> >>> </button> </div>
+    
+        </div>
+        <p id = "songName">name of this song </p>
+        <progress id = "progressBar"></progress>
+
+
+     </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
